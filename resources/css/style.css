@@ -18,7 +18,7 @@
   padding: 10px 0px 10px 5px;
 }
 
-h1 {
+h2 {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -47,4 +47,121 @@ nav {
 
 a {
   color: black;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: black solid 1px;
+  width: 1250px;
+  height: 900px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+h1 {
+  padding: 10px 0px;
+}
+
+h3{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+p {
+  padding: 10px 0px;
+}
+
+.column.large {
+  width: 630px;
+  border: black solid 1px;
+  display: inline-flex;
+
+
+}
+
+.column.medium {
+  width: 300px;
+  border: black solid 1px;
+  display: inline-flex;
+
+}
+
+.column.small {
+  width: 240px;
+  border: black solid 1px;
+  display: inline-flex;
+
+}
+
+.mother {
+  border: black solid 1px;
+  width: 630px;
+  height: 300px;
+  background-image: url(../images/img-story-main.png);
+  background-size: cover;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.monument {
+  border: black solid 1px;
+  width: 630px;
+}
+
+.orca {
+  border: black solid 1px;
+  width: 630px;
+}
+
+.burger {
+  border: black solid 1px;
+  width: 630px;
+}
+
+.research {
+  border: black solid 1px;
+  width: 630px;
+}
+
+.blank.large {
+  border: black solid 1px;
+  width: 630px;
+}
+
+.fbi {
+  border: black solid 1px;
+  width: 300px;
+}
+
+.cats {
+  border: black solid 1px;
+  width: 300px;
+}
+
+.brooklyn {
+  border: black solid 1px;
+  width: 300px;
+}
+
+.cookie {
+  width: 240px;
+  border: black solid 1px;
+}
+
+.bite {
+  width: 240px;
+  border: black solid 1px;
+}
+
+.blank.small {
+  border: black solid 1px;
+  width: 240px;
 }
