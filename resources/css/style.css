@@ -25,7 +25,6 @@ h2 {
   color: MediumAquamarine;
   padding: 20px 10px;
   width: 200px;
-
 }
 
 nav {
@@ -33,7 +32,6 @@ nav {
   align-content: center;
   justify-content: flex-end;
   width: 100%
-
 }
 
 .nav {
@@ -42,7 +40,6 @@ nav {
   font-weight: bold;
   padding-right: 28px;
   align-content: center;
-
 }
 
 a {
@@ -55,48 +52,72 @@ a {
   padding: 30px;
   border: black solid 1px;
   width: 1250px;
-  height: 900px;
+  height: 1000px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-
 }
 
 h1 {
-  padding: 10px 0px;
+  margin: 10px 0px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
 }
 
 h3{
   text-transform: uppercase;
+  font-family: Georgia;
   font-weight: bold;
   font-size: 20px;
   padding-top: 15px;
 }
 
 p {
-  padding: 10px 0px;
+  margin: 10px 0px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .column.large {
   width: 630px;
+  height: 1300;
   border: black solid 1px;
   display: inline-flex;
-
-
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 .column.medium {
   width: 300px;
   border: black solid 1px;
   display: inline-flex;
-
 }
 
 .column.small {
   width: 240px;
   border: black solid 1px;
   display: inline-flex;
+}
 
+.column.split {
+  display: inline-flex;
+  width: 315px;
+}
+
+.column.split1 {
+  display: inline-flex;
+  width: 315px;
+}
+
+.column.split2 {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 630px;
 }
 
 .mother {
@@ -107,7 +128,7 @@ p {
   background-size: cover;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
 }
 
@@ -118,22 +139,42 @@ p {
 
 .orca {
   border: black solid 1px;
-  width: 630px;
+  width: 300px;
+  align-self: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.earth {
+  border: black solid 1px;
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/img-story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 .burger {
   border: black solid 1px;
-  width: 630px;
+  width: 300px;
+  align-self: center;
+  padding: 20px 0px;
+
 }
 
 .research {
   border: black solid 1px;
-  width: 630px;
-}
-
-.blank.large {
-  border: black solid 1px;
-  width: 630px;
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/img-story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 .fbi {
@@ -144,6 +185,14 @@ p {
 .cats {
   border: black solid 1px;
   width: 300px;
+  height: 300px;
+  background-image: url(../images/img-story-1.png);
+  background-size: cover;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 .brooklyn {
@@ -164,4 +213,13 @@ p {
 .blank.small {
   border: black solid 1px;
   width: 240px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 600px;
+  justify-content:space-between;
+  align-content: space-between;
 }
