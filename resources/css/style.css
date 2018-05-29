@@ -5,11 +5,13 @@
 .header {
   display: flex;
   border-bottom: black solid 1px;
-  width: 100%
+  width: 100%;
   height: 100px;
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: white;
+
 }
 
 .logo {
@@ -24,7 +26,8 @@ h2 {
   font-weight: bold;
   color: MediumAquamarine;
   padding: 20px 10px;
-  width: 200px;
+  width: 300px;
+
 }
 
 nav {
@@ -51,11 +54,15 @@ a {
   flex-direction: column;
   padding: 30px;
   border: black solid 1px;
-  width: 1250px;
-  height: 1000px;
+  width: 1280px;
+  height: 1040px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin: 0px;
+
+
+
 }
 
 h1 {
@@ -70,8 +77,9 @@ h3{
   text-transform: uppercase;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 p {
@@ -84,7 +92,6 @@ p {
 .column.large {
   width: 630px;
   height: 1300;
-  border: black solid 1px;
   display: inline-flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -93,13 +100,11 @@ p {
 
 .column.medium {
   width: 300px;
-  border: black solid 1px;
   display: inline-flex;
 }
 
 .column.small {
   width: 240px;
-  border: black solid 1px;
   display: inline-flex;
 }
 
@@ -121,7 +126,6 @@ p {
 }
 
 .mother {
-  border: black solid 1px;
   width: 630px;
   height: 300px;
   background-image: url(../images/img-story-main.png);
@@ -133,12 +137,10 @@ p {
 }
 
 .monument {
-  border: black solid 1px;
   width: 630px;
 }
 
 .orca {
-  border: black solid 1px;
   width: 300px;
   align-self: center;
   justify-content: center;
@@ -146,7 +148,6 @@ p {
 }
 
 .earth {
-  border: black solid 1px;
   width: 300px;
   height: 300px;
   background-image: url(../images/img-story-2.png);
@@ -158,7 +159,6 @@ p {
 }
 
 .burger {
-  border: black solid 1px;
   width: 300px;
   align-self: center;
   padding: 20px 0px;
@@ -166,7 +166,6 @@ p {
 }
 
 .research {
-  border: black solid 1px;
   width: 300px;
   height: 300px;
   background-image: url(../images/img-story-3.png);
@@ -178,12 +177,10 @@ p {
 }
 
 .fbi {
-  border: black solid 1px;
   width: 300px;
 }
 
 .cats {
-  border: black solid 1px;
   width: 300px;
   height: 300px;
   background-image: url(../images/img-story-1.png);
@@ -196,23 +193,16 @@ p {
 }
 
 .brooklyn {
-  border: black solid 1px;
   width: 300px;
 }
 
 .cookie {
   width: 240px;
-  border: black solid 1px;
 }
 
 .bite {
   width: 240px;
-  border: black solid 1px;
-}
-
-.blank.small {
-  border: black solid 1px;
-  width: 240px;
+  text-align: center;
 }
 
 .column {
@@ -222,4 +212,15 @@ p {
   height: 600px;
   justify-content:space-between;
   align-content: space-between;
+}
+
+.list {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: black solid 1px;
+  padding: 15px 15px;
+  margin: 0px 0px;
+  text-align: left;
 }
